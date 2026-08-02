@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Raleway';
+    src:
+    url('../fonts/Raleway-Regular.woff2') format('woff2'),
+    url('../fonts/Raleway-Regular.woff') format('woff'),
+    url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src:
+    url('../fonts/Raleway-Bold.woff2') format('woff2'),
+    url('../fonts/Raleway-Bold.woff') format('woff'),
+    url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.header__menu a {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 100%;
+    color: #000;
+}
+
+.header__contacts {
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 24.3px;
+    color: #000;
+}
+
+.cover__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #fff;
+    word-spacing: 0.9em;
+}
+
+.cover__button {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #fff;    
+}
+
+.lots__title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.lot__card-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 48px 40px;
+}
+
+.lot__card-desc {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,251 @@
+.container {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    gap: 37px;
+    padding: 92px 52.52px 96px 50px;
+
+}
+
+.header__menu{
+    justify-self: start;
+}
+
+.header__logo {
+    justify-self: center;    
+}
+
+.header__logo img {
+    display: block;
+    width: 148px;  
+}
+
+.header__contacts {
+    justify-self: end;
+
+}
+
+.header__contacts a {
+    text-decoration: none;
+    color: inherit;
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-decoration-color: currentColor;
+    text-underline-offset: 5px;
+}
+
+.header__contacts a:hover {
+    opacity: 0.8;
+}
+
+.menu__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction:row;
+    gap: 13px;
+    align-items: center;
+}
+
+.menu__list li{
+    position: relative;
+    padding-left: 13px;
+}
+
+.menu__list li::before {
+    content: '';
+    display: block;
+    width: 4px;
+    height: 4px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu__list li:first-child::before {
+    display: none;
+}
+
+.menu__list a.menu__link--underline{
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.contacts-list {
+    list-style: none;  
+    margin: 0;           
+    padding: 0;          
+    display: flex;       
+    flex-direction: column; 
+    gap: 1px;            
+}
+
+.cover {
+    position: relative;
+    width: 100%;
+    max-width: 1100px;
+    height: 757px;
+    background-image: url('../images/lotus-flower.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.cover__content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    box-sizing: border-box;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #00000099;
+    z-index: 1;
+}
+
+.cover__title {
+    position:relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cover__title-part {
+    position: absolute;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.cover__title-left {
+    top: 165px;
+    left: 50px;
+    font-size: 100px;
+    letter-spacing: 30px; 
+}
+
+.cover__title-center {
+    top: 300px;
+    left: 380.5px;
+    right: 380.5px;
+    font-size: 100px; 
+    letter-spacing: 30px;
+}
+
+.cover__title-right {
+    top: 435px;
+    left: 663px;
+    font-size: 100px;
+    letter-spacing: 30px; 
+}
+
+.cover__description {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    gap: 107px;
+}
+
+.cover__text {
+    position: absolute;
+    left: 50px;
+    bottom: 61px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.cover__button {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    padding: 12px 32px 11px 31px;
+}
+
+.lots {
+    padding: 180px 24px 120px;
+}
+
+.lots__title {
+    left: 40px;
+    margin: 0 0 27px 0;
+    box-sizing: border-box;
+}
+
+.lots__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1100px;
+}
+
+.lot__card {
+    height: 596px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 27px;
+}
+
+.lot__card-movie {
+    background-image: url(../images/photo_1.png);
+}
+
+.lot__card-book {
+    background-image: url(../images/photo_2.jpg);
+}
+
+.lot__card-painting {
+    background-image: url(../images/photo_3.png);
+}
+
+.lot__card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #00000099;
+    z-index: 1;
+}
+
+.lot__card-inner {
+    display: flex;
+    flex-direction: column;
+    width: 334px;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.lot__card-desc {
+    margin-top:auto;
+    margin: 0;
+    padding-bottom: 48px;    
+}
