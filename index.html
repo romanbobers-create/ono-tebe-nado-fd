@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <div class="container">
+    
         <header class="header">
             <nav class="header__menu">
                 <ul class="menu__list">
@@ -32,6 +32,7 @@
         </header>    
             <main>
                 <section class="cover">
+                    <div class="overlay"></div>
                     <div class="cover__content">
                         <h1 class="cover__title">
                             <span class="cover__title-part cover__title-left">ОНО</span>
@@ -48,18 +49,21 @@
                     <h2 class="lots__title">ЛОТЫ</h2>
                     <div class="lots__grid">
                         <article class="lot__card lot__card-movie">
+                            <div class="overlay"></div>
                             <div class="lot__card-inner">
                                 <h3 class="lot__card-title">Фильм режиссёра, который бросил киношколу</h3>
                                 <p class="lot__card-desc">Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка, если бы вы не знали, что режиссёр — Пол Томас Андерсон?</p>
                             </div>
                         </article>
                         <article class="lot__card lot__card-book">
+                            <div class="overlay"></div>
                             <div class="lot__card-inner">
                                 <h3 class="lot__card-title">Книга, где описан один скучный день из жизни рекламного агента</h3>
                                 <p class="lot__card-desc">Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский. В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных времён. И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?</p>
                             </div>
                         </article>
                         <article class="lot__card lot__card-painting">
+                            <div class="overlay"></div>
                             <div class="lot__card-inner">
                                 <h3 class="lot__card-title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
                                 <p class="lot__card-desc">Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку. Никаких полей, лесов, котиков... Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?</p>
@@ -70,7 +74,20 @@
                         <a href="#" class="button-more">посмотреть больше</a>
                     </div>
                 </section>
+                <section class="about">
+                    <div class="about__grid">
+                        <div class="about__logo-block">
+                            <img src="images/logo_2.svg" 
+                            alt="логотип аукциона в круге" class="about__logo-img">
+                        </div>
+                        <div class="about__conten">
+                            <h4 class="about__title">Об аукционе</h4>
+                            <p class="about__text">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+                            <p class="about__text">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.</p>
+                        </div>
+                    </div>
+                </section>
             </main>  
-    </div>
+    
 </body>
 </html>

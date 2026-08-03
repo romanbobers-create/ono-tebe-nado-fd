@@ -77,8 +77,7 @@ body {
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
-    text-decoration: underline;
-    padding: 48px 40px;
+    text-decoration: underline;    
 }
 
 .lot__card-desc {
@@ -87,3 +86,23 @@ body {
     font-size: 20px;
     
 }
+
+.lots__footer {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+}
+
+.button-more {
+    display: inline-block; 
+    color: #000;           
+    text-decoration: underline;
+    text-decoration-thickness: 1px; 
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;    
+    
+}
+
