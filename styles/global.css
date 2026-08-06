@@ -1,5 +1,11 @@
-* {
+html {
     box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    
 }
 
 body,
@@ -28,10 +34,13 @@ input {
     z-index: 1;
 }
 
-.cover, .lots, .about, .footer {
+.header,
+.cover,
+.lots,
+.about,
+.footer {
     max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%; /* Чтобы на маленьких экранах занимала всё место */
-    box-sizing: border-box;
+    width: 100%; 
+    margin: 0 auto;
+    
 }
