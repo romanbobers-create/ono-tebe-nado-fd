@@ -1,1 +1,1 @@
-https://github.com/romanbobers-create/first-project
+https://github.com/romanbobers-create/ono-tebe-nado-fd
