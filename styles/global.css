@@ -1,14 +1,15 @@
-html {
-    box-sizing: border-box;
-}
 *,
 *::before,
 *::after {
-    box-sizing: inherit;
-    
+  box-sizing: border-box;
 }
 
-body,
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -19,12 +20,21 @@ p,
 ul,
 ol,
 li,
-a,
-img,
-button,
-input {
-    margin: 0;
-    padding: 0;
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  font: inherit;
 }
 
 .overlay {
