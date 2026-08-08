@@ -54,6 +54,26 @@ button {
   margin: 0 auto;
 }
 
+.cover__content,
+.cover__title,
+.cover__description,
+.cover__text,
+.bet__button {
+  position: relative;
+  z-index: 2;
+}
+
+.card > h3.card-title,
+.card > p.card-text {
+  position: relative;
+  z-index: 2; 
+  margin: 0;
+}
+
 .contacts-list {
   list-style-type: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }
